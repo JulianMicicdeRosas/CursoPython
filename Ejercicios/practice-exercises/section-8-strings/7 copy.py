@@ -17,3 +17,6 @@ print("{} en 'capitalize' (sin función) => {}".format(
 print('¿Transformado correctamente?: {}'.format(
     str_val.capitalize() == str_capitalize
 ))
+
+
+"a ver si este cambio te lo avisa en vivo"
