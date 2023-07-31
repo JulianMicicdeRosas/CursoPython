@@ -1,0 +1,10 @@
+===========================
+Notas de Bootcamp Python 3
+===========================
+Nombre / Apellidos,Correo electrónico,Nota
+Ruslan Gonzalez,r.gonzalez.dev@gmail.com,9.99
+Miren Iturbe,m.iturbe.it@gmail.com,7.8
+Mikel Martín,mikmar@gmail.com,3.4
+===========================
+PROMEDIO DE LA CLASE: 7.06
+===========================
