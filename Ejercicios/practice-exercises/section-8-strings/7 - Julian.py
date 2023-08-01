@@ -6,6 +6,7 @@ No usar función 'capitalize'
 """
 
 VariableParaIngresar = input("Ingresar palabrita para pasar a mayúscula la primer letra: ")
-TextoConMayuscula = VariableParaIngresar[0].upper() + VariableParaIngresar[1:]
+TextoConMayuscula = VariableParaIngresar[0].upper() + VariableParaIngresar[1:].lower()
 
-print(TextoConMayuscula) 
+
+print("El resultado sería : " + TextoConMayuscula) 
