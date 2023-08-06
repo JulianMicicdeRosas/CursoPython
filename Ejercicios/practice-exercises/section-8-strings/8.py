@@ -10,6 +10,29 @@ Finaliza con “AnartzMugika” => false
 Finaliza con “Anartz Mugika” => true"
 '''
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 init_txt = "Estoy haciendo los ejercicios opcionales del curso {}"
 all_txt = init_txt.format("Bootcamp Python 3 con el profesor Anartz Mugika")
 

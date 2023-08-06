@@ -1,6 +1,8 @@
 '''
-Escribe un programa en el que vamos a asignar a un string la siguiente frase “Estoy haciendo los ejercicios opcionales del curso Bootcamp Python 3 con el profesor Anartz Mugika”. 
-Vamos a realizar las siguientes comprobaciones y mostramos su resultado. Recordad que son diferentes los mismos carácteres que están en mayúsculas y minúsculas.
+Escribe un programa en el que vamos a asignar a un string la siguiente frase 
+“Estoy haciendo los ejercicios opcionales del curso Bootcamp Python 3 con el profesor Anartz Mugika”. 
+Vamos a realizar las siguientes comprobaciones y mostramos su resultado. 
+Recordad que son diferentes los mismos carácteres que están en mayúsculas y minúsculas.
 (Trabajar con startswith, igualdad ==, endswith)
 Comienza con “Bootcamp Python 3”. => false
 Comienza con “Estoy haciendo los ejercicios opcionales” => true
@@ -9,6 +11,57 @@ Finaliza con “Mugika” => true
 Finaliza con “AnartzMugika” => false
 Finaliza con “Anartz Mugika” => true"
 '''
+
+texto = ("Estoy haciendo los ejercicios opcionales del curso Bootcamp Python 3 con el profesor Anartz Mugika")
+
+
+comienzaConEsto = texto.startswith("Botcamp Python 3")
+print(comienzaConEsto)
+
+comienzaConEsto = texto.startswith("Estoy haciendo los ejercicios opcionales")
+print(comienzaConEsto)
+
+
+
+esIgualAEsto = texto==("Estoy haciendo ejercicios opcionales")
+print(esIgualAEsto)
+
+
+
+terminaConEsto = texto.endswith("Mugika")
+print(terminaConEsto)
+
+terminaConEsto = texto.endswith("AnartzMugika")
+print(terminaConEsto)
+
+terminaConEsto = texto.endswith("Anartz Mugika")
+print(terminaConEsto)
+
+
+
+
+         
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"""
 
 init_txt = "Estoy haciendo los ejercicios opcionales del curso {}"
 all_txt = init_txt.format("Bootcamp Python 3 con el profesor Anartz Mugika")
@@ -41,4 +94,4 @@ txt = "Finaliza con 'AnartzMugika': {}"
 check_result = all_txt.endswith("Anartz Mugika")
 print(txt.format(check_result))
 
-
+"""
