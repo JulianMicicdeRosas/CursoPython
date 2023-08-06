@@ -4,6 +4,49 @@ los restantes
 en minúsculas de un string introducido por teclado.
 No usar función 'capitalize'
 """
+
+string = input("introduzca: ")
+
+resultado = string[0].upper() + string[1:].lower()
+
+
+print(resultado)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"""
+
 str_val = input("Introduzca texto a convertir en 'capitalize': \n")
 print("==========================================================")
 str_capitalize = "{}{}".format(
@@ -18,3 +61,4 @@ print('¿Transformado correctamente?: {}'.format(
     str_val.capitalize() == str_capitalize
 ))
 
+"""
