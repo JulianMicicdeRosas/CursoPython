@@ -21,6 +21,9 @@ subStrIndex = textoCompleto.index("Bootcamp Python 3")
 subStrLongitud = len("Bootcamp Python 3")
 
 
+subStrLongitud = len("Bootcamp Python 3")
+
+
 subStrBootcamp = textoCompleto[subStrIndex : subStrIndex + len("Bootcamp Python 3")]
 
 print (subStrBootcamp)
