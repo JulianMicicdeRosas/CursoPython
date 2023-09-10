@@ -18,7 +18,7 @@ textoCompleto = ("Estoy haciendo los ejercicios opcionales del curso Bootcamp Py
 
 subStrIndex = textoCompleto.index("Bootcamp Python 3")
 
-subStrLongitud = str(len("Bootcamp Python 3"))
+subStrLongitud = len("Bootcamp Python 3")
 
 
 subStrBootcamp = textoCompleto[subStrIndex : subStrIndex + len("Bootcamp Python 3")]
