@@ -31,3 +31,6 @@ print (ChequeandoComoComienza)
 
 ChequeandoComoComienza = StringLoca.endswith("AnartzMugika")
 print (ChequeandoComoComienza)
+
+ChequeandoComoComienza = StringLoca.endswith("Anartz Mugika")
+print (ChequeandoComoComienza)
