@@ -18,6 +18,8 @@ Texto = ("Estoy en la parte de la clase String del curso de Bootcamp Python 3 co
 
 Texto = Texto.replace(',', '_').replace('.', '_').replace('@', '_').replace('-', '_')
 
-Texto_dividido = Text.split('_')
+Texto_dividido = Texto.split('_')
 print (len(Texto))
+
+print (Texto_dividido)
 
