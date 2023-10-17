@@ -17,18 +17,12 @@ Los años bisiestos entre 1582 y 2200:
 https://miniwebtool.com/es/leap-years-list/?end_year=2200&start_year=1582
 
 """
+ChequearNumero = int(input("Introducir un número para ver si es bisiesto: "))
 
-number_val = int(input("Introduzca el año a comprar si es bisiesto o no: \n"))
+if ChequearNumero % 4 == 0 and ChequearNumero % 100 != 0 and ChequearNumero % 100 == 0 and ChequearNumero % 400 != 0: 
+    print("Es un año bisiesto.")
+else: 
+    print ("No es un año bisiesto")
 
-"""(No divisible de 100 y divisible de 4 
-o  Divisible de 400)Si cumple => Bisiesto. 
 
-ELSE => Si no cumple seguir al siguiente paso.
-"""
 
-if ((number_val % 100 != 0 and number_val % 4 == 0) or number_val % 400 == 0): 
-    result = " es BISIESTO"
-else:
-    result = " NO es BISIESTO"
-
-print(f"{number_val}{result}")
