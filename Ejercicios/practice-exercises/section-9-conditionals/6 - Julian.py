@@ -20,10 +20,12 @@ NumeroDeMes = int(input("Introduce un número del mes, del 1 al 12: "))
 
 if NumeroDeMes == 2:
     NumeroDeAnio = int(input("Introduce en qué año estás: "))
-    if NumeroDeAnio % 4 == 0 and NumeroDeAnio % 100 != 0 and NumeroDeAnio % 100 == 0 and NumeroDeAnio % 400 != 0: 
+    if (NumeroDeAnio % 4 == 0 and NumeroDeAnio % 100 != 0 or NumeroDeAnio % 100 == 0 and NumeroDeAnio % 400 != 0): 
         print("Febrero tendrá 29 días.")
     else: 
         print("Febrero tendrá 28 días")
+elif NumeroDeMes == 1:
+    print("Has elegido el mes enero")
 elif NumeroDeMes == 3:
     print("Has elegido el mes marzo")
 elif NumeroDeMes == 4:
