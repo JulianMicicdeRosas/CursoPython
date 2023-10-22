@@ -11,7 +11,37 @@ Resultado esperado: El 18 tiene 2 cifras.
 
 
 
+numero = int(input("ingrese un número entre 0 y 999"))
 
+if(numero >= 0 and numero <= 9):
+    print("el número ingresado tiene 1 dígito")
+
+elif(numero >= 10 and numero <= 99):
+    print("el número ingresado tiene 2 dígitos")
+
+elif(numero >= 110 and numero <= 999):
+    print("el número ingresado tiene 3 dígitos")
+
+
+else:
+    print("el número ingresado no corresponde al rango numérico solicitado")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"""
 number_value = int(input("Introduzca el número a evaluar entre 0-999: "))
 if (number_value < 10 and number_value >= 0):
     print(f"El número {number_value} tiene una cifra")
@@ -22,3 +52,4 @@ elif (number_value < 1000 and number_value >= 100):
 else:
     print(f"El número {number_value} está fuera del rango 0-999")
 
+    """
