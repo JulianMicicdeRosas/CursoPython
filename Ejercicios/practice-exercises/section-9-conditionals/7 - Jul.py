@@ -12,7 +12,27 @@ Pesetas->Euros=100000 pesetas españolas son 601,0121euros
 
 """
 
+
+
 print("============CONVERTIDOR============")
 print("\t1) Euros a Pesetas")
 print("\t2) Pesetas a Euros")
+print("\t3) Salir")
 print("===================================")
+
+Opcion = int(input("Introducir una opción: "))
+
+
+
+if Opcion == 1:
+    NumeroVariable = int(input("Introducir un número con el que trabajar "))
+    Resultado = NumeroVariable * 166.386
+    print ("La cantidad de pesetas total sería" + str(Resultado))
+elif Opcion == 2:
+    NumeroVariable = int(input("Introducir un número con el que trabajar "))
+    Resultado = NumeroVariable / 166.386
+    print ("La cantidad de pesetas total sería" + str(Resultado))
+else: 
+    print ("Listo, te mando un abrazo")
+
+   
