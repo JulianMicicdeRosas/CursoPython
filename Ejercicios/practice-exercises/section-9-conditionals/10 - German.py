@@ -8,6 +8,47 @@ y el total a pagar de la compra.
 
 
 
+
+metodo = input("ingrese método de pago: \n a) Contado \n b) Tarjeta")
+
+valor = int(input("ingrese valor del jueguito: "))
+
+if(metodo == "a"):
+	valorFinal = valor * .90
+	print("el valor es: " + str(valorFinal))
+
+elif(metodo =="b"):
+	valorFinal = valor * 102 / 100
+	print("el valor es: " + str(valorFinal))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"""
 total = float(input("Introduce el importe a pagar: "))
 
 pay_mode = input("¿Cómo vas a pagar? Tarjeta (T) / Contado (C)? ")
@@ -21,3 +62,4 @@ elif (pay_mode == "T" or pay_mode == "t"):
 	extra_pay = (total * 2 / 100)
 	print(f"Recargo (2%) - Pago con tarjeta: {extra_pay:.2f}")
 print(f"Total a pagar: {(total + extra_pay):.2f}")
+"""
