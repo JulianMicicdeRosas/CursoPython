@@ -20,7 +20,7 @@ Tropical
 total = float(input("Introduce la temperatura en Cº: "))
 		
 # Comprobar si estamos en el rango correcto del día seleccionado
-if (total <= 0):
+"""if (total <= 0):
     print("{0}ºC => Clima Super Frío".format(total))
 elif(total >= 0 and total <= 10):
     print("{0}ºC => Clima Muy Frío".format(total))
@@ -32,3 +32,6 @@ elif(total >= 30 and total <= 40):
     print("{0}ºC => Clima Caluroso".format(total))
 else:
     print("{0}ºC => Clima Tropical".format(total))
+"""
+
+Hola = None 
