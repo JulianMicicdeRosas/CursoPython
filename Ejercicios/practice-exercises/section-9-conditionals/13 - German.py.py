@@ -9,20 +9,72 @@ mostrar mensaje advirtiendo que no es posible)
 (Si no seleccionamos correctamente ni 1,2 ni 3, para decir “Opción incorrecta)
 
 """
-ingresar = "a "
+montoTotal = 0
+
+while True:
+    print("================================")
+    print("MENÚ:")
+    print("A) Ingresar dinero a la cuenta: ")
+    print("B) Retirar dinero de la cuenta: ") #(si queremos retirar más de lo que hay mostrar mensaje advirtiendo que no es posible 
+    print("C) Salir")
+    print("================================")
+
+    letra = str(input())
+    
+
+    if(letra == "a" or letra == "A" ):
+        montoTotal = float(montoTotal)
+        ingreso = float(input("Por favor, ingrese el valor que desea añadir a su cuenta: "))  
+        montoTotal += ingreso
+        print("Dinero ingresado con éxito")
+        print("El monto ha sido ingresado con éxito")
+        print("Su saldo es de: ", montoTotal)
+        
+
+    elif(letra == "b" or letra == "B"):
+        retiro = float(input("Por favor, ingrese el valor que desea retirar de su cuenta: "))
+        if(retiro <= ingreso):
+            montoTotal -= retiro
+            print("El monto ha sido extraido con éxito")
+            print("Su saldo es de: ", montoTotal)
+            
+            
+        else:
+            print("Se ha producido un error en la extracción. Intente nuevamente")
+
+    elif(letra == "c" or letra == "C"):
+                        print("Gracias por utilizar nuestros servicios")
+                        break
+
+    else:
+           print("Opción no válida. Intente nuevamente")                    
 
 
-print("MENÚ:")
-montoIngresado = float(input("A) Ingresar dinero a la cuenta".format(ingresar)))
 
 
-print("* Retirar dinero de la cuenta (si queremos retirar más de lo que hay, \n")
-print("mostrar mensaje advirtiendo que no es posible)\n")
-print("* Salir\n") 
 
 
-if(ingresar == "a" or ingresar == "A" ):
-    print("El dinero ingresado a la cuenta es de {ingresar}")
+
+
+
+
+"""
+    elif(letra != "a" or letra != "A" or letra != "b" or letra != "B"):
+                 if(letra != "c" or letra  != "C"):
+                      print("Opción no válida. Intente nuevamente")
+                 
+                 elif(letra == "c" or letra == "C"):
+                     print("Gracias por utilizar nuestros servicios")
+                     break        
+             
+"""
+    
+
+        
+        
+
+
+
 
 
 
