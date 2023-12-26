@@ -17,7 +17,7 @@ horas = int(input("Ingrese horas trabajadas: "))
 
 if(horas <= 40):
     salarioBarato = horas * 16
-    print("Salario a cobrar:",salarioReal)
+    print("Salario a cobrar:",salarioBarato)
 
 elif(horas > 40):
     salarioCaro = (horas - 40) * 20

@@ -6,25 +6,71 @@ Lo haremos con las diferentes opciones
 """
 
 
+numero = 1
+
+"""
+#print(numero)
+
+while numero <= 100:
+    print (numero)
+    numero += 2
+""" 
+    
+
+
+for numero in range(1, 101, 2):
+    
+    print(numero)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"""
+
 # while
 print("======================while (impares) ======================")
 i = 1
 
-"""
+
 Para obtener los impares para mostrarlos, ponemos la condición si la
 división de entre 2 es diferente a 0 en el resto. Con eso sabemos que 
 es impar y lo mostramos
-"""
+
 while i <= 100:
     if ( i % 2 != 0): print(i)
     i += 1
 
 # for
-print("======================for (impares) ======================")
-"""
+print"======================for (impares) ======================")
+
 En este caso aplicamos que por iteración haga + 2. Empezando de 1, que es
 impar, si vamos sumando + tendremos 1, 3, 5, 7, 9, 11, 13, 15, 17, 
 19, 21,...
-"""
+
 for value in range(1, 101, 2):
     print(value)
+
+"""
